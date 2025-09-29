@@ -184,7 +184,7 @@ class CandidateScreeningBot:
             • Cloud platforms & tools
             • Any other relevant technologies
             
-            **Example:** "Python, Django, React, PostgreSQL, AWS, Docker, Git"
+
             """, "collect_tech_stack"
         
         elif stage == "collect_tech_stack":
@@ -206,9 +206,6 @@ class CandidateScreeningBot:
             
             response += """
             These questions assess your proficiency in the technologies you've mentioned. 
-            In a real interview, you'd have time to think through and discuss your approaches to these problems.
-            
-            **Would you like to continue with more questions or proceed to wrap up?** (Type 'more' for additional questions or 'finish' to conclude)
             """
             
             return response, "technical_questions"
